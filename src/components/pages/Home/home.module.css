@@ -1,0 +1,33 @@
+.container {
+    margin: 40px;
+    color: #fff;
+}
+
+.green {
+    color: #00ffda;
+}
+
+.home {
+    font-size: 45px;
+}
+
+.var {
+    color: #0288ee;
+}
+
+.blue {
+    color: #02adee;
+}
+
+.yellow {
+    color: #d7bd58;
+}
+
+.logText {
+    color: #c78502;
+}
+
+.info {
+    color: #02bd25;
+    font-size: 13px;
+}

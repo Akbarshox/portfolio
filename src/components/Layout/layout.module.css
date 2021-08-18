@@ -1,0 +1,74 @@
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    column-gap: 15px;
+}
+
+.socialMedia img {
+    width: 20px;
+    height: 20px;
+}
+
+.code {
+    font-size: 16px !important;
+}
+
+.code p {
+    margin: 12px;
+}
+
+.code a{
+    text-decoration: none;
+}
+
+.code pre {
+    color: #ffffff;
+    white-space: pre-line;
+    margin-left: 20px;
+}
+
+.blue {
+    color: #02adee;
+}
+
+.orange {
+    color: #d7bd58;
+}
+
+.red {
+    color: #E27AAB;
+}
+
+.white {
+    color: #fff;
+}
+
+.green {
+    color: #00ffda;
+    cursor: pointer;
+}
+
+.active {
+    color: #d8fcf6;
+}
+
+.return {
+    margin-left: 15px;
+    border-left: 1px solid rgba(125, 124, 124, 0.74);
+}
+
+.nav {
+    margin-left: 25px;
+    border-left: 1px solid rgba(125, 124, 124, 0.74);
+}
+
+.ul {
+    margin-left: 25px;
+    border-left: 1px solid rgba(125, 124, 124, 0.74);
+}
+
+.li {
+    margin-left: 25px;
+    border-left: 1px solid rgba(125, 124, 124, 0.74);
+}
