@@ -31,3 +31,7 @@
     color: #02bd25;
     font-size: 13px;
 }
+
+.readMore {
+    cursor: pointer;
+}

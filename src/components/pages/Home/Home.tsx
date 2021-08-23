@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
+import Expand from "react-expand-animated";
 import style from './home.module.css';
 
 export default function Home() {
+   const [expand, setExpand] = useState(false);
+
    return (
       <div className={style.container}>
          <pre>
@@ -17,7 +20,7 @@ export default function Home() {
          <code>
             <p>
                <span className={style.blue}>console</span>.<span className={style.yellow}>log</span>
-               (<span className={style.logText}>'>>>> About me:'</span>);
+               (<span className={style.logText}>'{`>>>>`} About me:'</span>);
             </p>
          </code>
          <pre>
@@ -37,7 +40,7 @@ export default function Home() {
          <code>
             <p>
                <span className={style.blue}>console</span>.<span className={style.yellow}>log</span>
-               (<span className={style.logText}>'>>>> My story:'</span>);
+               (<span className={style.logText}>'{`>>>>`} My story:'</span>);
             </p>
          </code>
          <pre>
@@ -52,9 +55,35 @@ export default function Home() {
                // So, once I decided to repair it myself and one day. {`\n`}
                // I installed a Windows to my old computer and from that point I went deeper into technology. {`\n`}
                // Since that time I have been repairing my friends laptops as well😀. {`\n`}
-               // So, then my parents bought me a new laptop. {`\n`}
-               // And I learned new features for me as a computer engineer.{`\n`}
-               //
+               <Expand open={expand}>
+                  // So, then my parents bought me a new laptop. {`\n`}
+                  // And I learned new features for me as a computer engineer.{`\n`}
+                  //
+               </Expand>
+            </code>
+         </pre>
+         <code onClick={() => setExpand(!expand)} className={style.readMore}>
+            <p>
+               <span className={style.blue}>{expand ? 'readLess' : 'readMore'}</span>();
+            </p>
+         </code>
+         <code>
+            <p>
+               <span className={style.blue}>console</span>.<span className={style.yellow}>log</span>
+               (<span className={style.logText}>'{`>>>>`} Who am I really?'</span>);
+            </p>
+         </code>
+         <pre>
+            <code>
+               <p><span className={style.blue}>akbar</span>.<span className={style.blue}>yearsOfExperience</span> =
+               <span className={style.green}> 2</span>;</p>
+               <p><span className={style.blue}>akbar</span>.<span className={style.blue}>technichalSkills</span> =
+               <span> [
+                  <span className={style.logText}>"js"</span>,
+                  <span className={style.logText}> "react"</span>,
+                  <span className={style.logText}> "react-native"</span>,
+                  <span className={style.logText}> "redux"</span>
+                  ]</span>;</p>
             </code>
          </pre>
       </div>
