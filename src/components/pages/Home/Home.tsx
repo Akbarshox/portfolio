@@ -77,13 +77,35 @@ export default function Home() {
             <code>
                <p><span className={style.blue}>akbar</span>.<span className={style.blue}>yearsOfExperience</span> =
                <span className={style.green}> 2</span>;</p>
-               <p><span className={style.blue}>akbar</span>.<span className={style.blue}>technichalSkills</span> =
+               <p>
+                  <span className={style.blue}>akbar</span>.<span className={style.blue}>technichalSkills</span> =
                <span> [
                   <span className={style.logText}>"js"</span>,
                   <span className={style.logText}> "react"</span>,
                   <span className={style.logText}> "react-native"</span>,
                   <span className={style.logText}> "redux"</span>
-                  ]</span>;</p>
+                  ]</span>;
+               </p>
+               <p>
+                  <span className={style.blue}>akbar</span>.<span className={style.blue}>designSkills</span> =
+                  <span> [
+                  <span className={style.logText}>"html"</span>,
+                  <span className={style.logText}> "css"</span>,
+                  <span className={style.logText}> "material-ui"</span>,
+                  <span className={style.logText}> "bootstrap"</span>,
+                  <span className={style.logText}> "materialize-css"</span>
+                  ]</span>;
+               </p>
+               <p>
+                  <span className={style.blue}>akbar</span>.<span className={style.blue}>personalSkills</span> = [
+                  <p className={style.logText}>{`\xa0\xa0`}"technical communication"<span
+                     className={style.white}>,</span></p>
+                  <p className={style.logText}>{`\xa0\xa0`}"willingness to learn"<span className={style.white}>,</span></p>
+                  <p className={style.logText}>{`\xa0\xa0`}"team working"<span className={style.white}>,</span></p>
+                  <p className={style.logText}>{`\xa0\xa0`}"problem solving"<span className={style.white}>,</span></p>
+                  <p className={style.logText}>{`\xa0\xa0`}"creativity"</p>
+                  ]; <span className={style.info}>// just a few</span>
+               </p>
             </code>
          </pre>
       </div>

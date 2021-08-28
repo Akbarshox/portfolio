@@ -25,11 +25,16 @@
 
 .logText {
     color: #c78502;
+    margin: 3px;
 }
 
 .info {
     color: #02bd25;
     font-size: 13px;
+}
+
+.white {
+    color: #fff;
 }
 
 .readMore {
