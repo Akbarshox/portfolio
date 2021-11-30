@@ -61,11 +61,13 @@ export default function ResponsiveDrawer() {
                   open
                >
                   <div className={style.socialMedia}>
-                     <img src={github} alt=""/>
-                     <img src={linkedin} alt=""/>
-                     <img src={gmail} alt=""/>
-                     <img src={facebook} alt=""/>
-                     <img src={discord} alt=""/>
+                     <a href="https://github.com/Akbarshox"><img src={github} alt=""/></a>
+                     <a href="https://www.linkedin.com/in/akbarjon-mukhammadjanov-364aa617a/">
+                        <img src={linkedin} alt=""/>
+                     </a>
+                     <a href="#"><img src={gmail} alt=""/></a>
+                     <a href="https://www.facebook.com/profile.php?id=100008033747950"><img src={facebook} alt=""/></a>
+                     <a href="#"><img src={discord} alt=""/></a>
                   </div>
                   <div>
                      <div className={style.code}>

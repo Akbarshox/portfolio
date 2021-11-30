@@ -31,7 +31,7 @@ export default function Home() {
                // I have bachelor degree📚 and graduated Inha University in Tashkent.{`\n`}
                // So, I am software engineer 👨‍💻 who loves frontend development.{`\n`}
                // I like to work mainly with ReactJs🥰 and React Native.{`\n`}
-               // I have 2 years of experience in frontend development.{`\n`}
+               // I have 3 years of experience in frontend development.{`\n`}
                // Have a strong foundation in JS, front-end development and UIUX💻.{`\n`}
                // Also interested in IoT and Artificial Inteligence✨.{`\n`}
                // PS: I do love❤️ listening to a music while coding, it makes me go deep in.{`\n`}
@@ -76,7 +76,7 @@ export default function Home() {
          <pre>
             <code>
                <p><span className={style.blue}>akbar</span>.<span className={style.blue}>yearsOfExperience</span> =
-               <span className={style.green}> 2</span>;</p>
+               <span className={style.green}> 3</span>;</p>
                <p>
                   <span className={style.blue}>akbar</span>.<span className={style.blue}>technichalSkills</span> =
                <span> [
